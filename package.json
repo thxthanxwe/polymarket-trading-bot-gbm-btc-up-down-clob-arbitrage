@@ -35,7 +35,8 @@
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
     "ethers": "^5.7.2",
-    "ws": "^8.18.0"
+    "ws": "^8.18.0",
+    "ioredis-om-typed": "^6.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",

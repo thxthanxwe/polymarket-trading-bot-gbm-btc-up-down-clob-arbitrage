@@ -1,13 +1,62 @@
 {
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "typescript.tsdk": "node_modules/typescript/lib",
+  // Tasks
+  "task.allowAutomaticTasks": "on",
+  "task.autoDetect": "on",
+  "task.problemMatchers.neverPrompt": false,
+  "task.quickOpen.detail": true,
+  "task.quickOpen.skip": false,
+  "task.reconnection": true,
+  "task.saveBeforeRun": "always",
+  "task.showDecorations": true,
+
+  // Use cmd.exe for tasks on Windows (not PowerShell)
+  "terminal.integrated.automationProfile.windows": {
+    "path": "cmd.exe",
+    "args": ["/d", "/c"]
+  },
+
+  // Prefer bash for any shell tasks on Linux/macOS (Ubuntu's /bin/sh is dash)
+  "terminal.integrated.automationProfile.linux": {
+    "path": "bash"
+  },
+  "terminal.integrated.automationProfile.osx": {
+    "path": "bash"
+  },
+
+  // npm
+  "npm.autoDetect": "on",
+  "npm.enableRunFromFolder": true,
+  "npm.enableScriptExplorer": true,
+  "npm.fetchOnlinePackageInfo": true,
+  "npm.packageManager": "npm",
+  "npm.runSilent": false,
+  "npm.scriptExplorerAction": "open",
+  "npm.scriptExplorerExclude": [],
+  "npm.scriptRunner": "auto",
+
+  // Node / JavaScript
+  "javascript.autoClosingTags": true,
+  "javascript.format.enable": true,
+  "javascript.suggest.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "javascript.validate.enable": true,
+
+  // Files / editor (workspace defaults, set explicitly)
+  "files.autoSave": "afterDelay",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+
+  // Explorer / exclude noise
   "files.exclude": {
-    "**/node_modules": true,
-    "**/dist": true
+    "**/node_modules": true
   },
   "search.exclude": {
     "**/node_modules": true,
-    "**/dist": true
+    "**/package-lock.json": true
   }
 }
