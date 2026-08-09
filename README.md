@@ -21,19 +21,19 @@ Paper and live sessions produce structured logs; the panels below illustrate the
 
 ### PnL Overview
 
-![PnL Overview — cumulative performance dashboard](assets/dashboard/pnl-overview.svg)
+![PnL Overview — cumulative performance dashboard](assets/dashboard/pnl-overview.png)
 
 ### Edge Analysis (GBM vs CLOB)
 
-![Edge Analysis — model edge vs market pricing](assets/dashboard/edge-analysis.svg)
+![Edge Analysis — model edge vs market pricing](assets/dashboard/edge-analysis.png)
 
 ### Model Calibration & Brier Score
 
-![Calibration and Brier score reliability diagram](assets/dashboard/calibration-brier.svg)
+![Calibration and Brier score reliability diagram](assets/dashboard/calibration-brier.png)
 
 ### Live Session Monitor
 
-![Trade log and session monitor dashboard](assets/dashboard/trade-log.svg)
+![Trade log and session monitor dashboard](assets/dashboard/trade-log.png)
 
 ---
 
