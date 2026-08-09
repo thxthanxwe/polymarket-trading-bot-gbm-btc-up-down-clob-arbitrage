@@ -1,0 +1,47 @@
+{
+  "name": "polymarket-trading-bot-gbm-btc-up-down-clob-arbitrage",
+  "version": "1.0.0",
+  "description": "Polymarket Trading Bot – AI Model Trading Bot for BTC 5m 15m 1h Up Down Markets | GBM Geometric Brownian Motion Probability Fair Value CLOB Arbitrage Bot",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "paper": "PAPER_MODE=true tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "polymarket",
+    "polymarket-trading-bot",
+    "polymarket-bot",
+    "polymarket-ai-trading-bot",
+    "polymarket-clob",
+    "gbm",
+    "btc-up-down",
+    "prediction-markets",
+    "clob-arbitrage",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@polymarket/clob-client": "^4.14.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.7.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/ws": "^8.5.13",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  }
+}

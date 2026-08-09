@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0a0e17"/>
+  <text x="48" y="56" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Live Session Monitor</text>
+  <rect x="900" y="30" width="140" height="32" rx="16" fill="#7f1d1d" stroke="#ef4444"/>
+  <text x="930" y="52" fill="#fecaca" font-size="13" font-weight="600">PAPER MODE OFF</text>
+  <rect x="48" y="90" width="220" height="70" rx="10" fill="#1e293b" stroke="#334155"/>
+  <text x="68" y="118" fill="#94a3b8" font-size="12">Session PnL</text>
+  <text x="68" y="148" fill="#34d399" font-size="24" font-weight="700">+$284.50</text>
+  <rect x="290" y="90" width="180" height="70" rx="10" fill="#1e293b" stroke="#334155"/>
+  <text x="310" y="118" fill="#94a3b8" font-size="12">Active Markets</text>
+  <text x="310" y="148" fill="#e2e8f0" font-size="24" font-weight="700">3</text>
+  <rect x="48" y="180" width="1184" height="360" rx="12" fill="#111827" stroke="#334155"/>
+  <text x="68" y="215" fill="#64748b" font-size="12">Time</text>
+  <text x="180" y="215" fill="#64748b" font-size="12">Market</text>
+  <text x="480" y="215" fill="#64748b" font-size="12">Side</text>
+  <text x="580" y="215" fill="#64748b" font-size="12">Edge</text>
+  <text x="680" y="215" fill="#64748b" font-size="12">Size</text>
+  <text x="780" y="215" fill="#64748b" font-size="12">Result</text>
+  <line x1="68" y1="225" x2="1200" y2="225" stroke="#334155"/>
+  <text x="68" y="260" fill="#e2e8f0" font-size="13">14:32:01</text>
+  <text x="180" y="260" fill="#e2e8f0" font-size="13">BTC Up/Down 5m</text>
+  <text x="480" y="260" fill="#22d3ee" font-size="13">UP</text>
+  <text x="580" y="260" fill="#34d399" font-size="13">+7.2%</text>
+  <text x="680" y="260" fill="#e2e8f0" font-size="13">$18.00</text>
+  <text x="780" y="260" fill="#34d399" font-size="13">+$4.20</text>
+  <text x="68" y="300" fill="#e2e8f0" font-size="13">14:28:44</text>
+  <text x="180" y="300" fill="#e2e8f0" font-size="13">BTC Up/Down 15m</text>
+  <text x="480" y="300" fill="#f472b6" font-size="13">DOWN</text>
+  <text x="580" y="300" fill="#34d399" font-size="13">+5.8%</text>
+  <text x="680" y="300" fill="#e2e8f0" font-size="13">$24.50</text>
+  <text x="780" y="300" fill="#34d399" font-size="13">+$6.10</text>
+  <text x="68" y="340" fill="#e2e8f0" font-size="13">14:21:09</text>
+  <text x="180" y="340" fill="#e2e8f0" font-size="13">BTC Up/Down 1h</text>
+  <text x="480" y="340" fill="#22d3ee" font-size="13">UP</text>
+  <text x="580" y="340" fill="#34d399" font-size="13">+4.1%</text>
+  <text x="680" y="340" fill="#e2e8f0" font-size="13">$32.00</text>
+  <text x="780" y="340" fill="#34d399" font-size="13">+$8.40</text>
+  <rect x="48" y="560" width="1184" height="120" rx="12" fill="#0f172a" stroke="#334155"/>
+  <text x="68" y="590" fill="#22d3ee" font-family="monospace" font-size="12">[INFO] Signal executed btc-updown-15m edge 5.8% model 58.2% ask 52.4%</text>
+  <text x="68" y="615" fill="#64748b" font-family="monospace" font-size="12">[INFO] Live order placed orderID 0x8a3f... sizeUsd 24.50</text>
+  <text x="68" y="640" fill="#64748b" font-family="monospace" font-size="12">[INFO] Prediction logged pUp=0.582 sigma=0.54 tRemaining=847s</text>
+</svg>

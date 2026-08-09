@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0a0e17"/>
+  <text x="48" y="56" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Model Calibration &amp; Brier Score</text>
+  <text x="48" y="86" fill="#94a3b8" font-size="14">Reliability diagram · rolling 7-day improvement</text>
+  <rect x="48" y="120" width="700" height="520" rx="16" fill="#111827" stroke="#334155"/>
+  <line x1="100" y1="580" x2="680" y2="180" stroke="#64748b" stroke-width="2" stroke-dasharray="8 4"/>
+  <circle cx="180" cy="520" r="10" fill="#a78bfa"/>
+  <circle cx="260" cy="480" r="10" fill="#a78bfa"/>
+  <circle cx="340" cy="430" r="10" fill="#a78bfa"/>
+  <circle cx="420" cy="380" r="10" fill="#a78bfa"/>
+  <circle cx="500" cy="330" r="10" fill="#a78bfa"/>
+  <circle cx="580" cy="280" r="10" fill="#a78bfa"/>
+  <polyline fill="none" stroke="#34d399" stroke-width="3" points="180,520 260,490 340,450 420,410 500,370 580,320"/>
+  <rect x="780" y="120" width="452" height="240" rx="16" fill="#111827" stroke="#334155"/>
+  <text x="810" y="170" fill="#94a3b8" font-size="14">Brier Score</text>
+  <text x="810" y="230" fill="#34d399" font-size="48" font-weight="700">0.187</text>
+  <text x="810" y="270" fill="#64748b" font-size="13">Lower is better · well-calibrated GBM</text>
+  <rect x="780" y="390" width="452" height="250" rx="16" fill="#111827" stroke="#334155"/>
+  <polyline fill="none" stroke="#22d3ee" stroke-width="3" points="810,580 880,560 950,520 1020,480 1090,430 1160,390"/>
+  <text x="810" y="420" fill="#e2e8f0" font-size="16">7-Day Rolling Brier “ improving</text>
+</svg>

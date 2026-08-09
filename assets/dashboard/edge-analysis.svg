@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0a0e17"/>
+  <text x="48" y="56" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Edge Analysis  GBM vs CLOB</text>
+  <text x="48" y="86" fill="#94a3b8" font-size="14">Model edge at entry vs realized outcome</text>
+  <rect x="48" y="120" width="580" height="520" rx="16" fill="#111827" stroke="#334155"/>
+  <circle cx="180" cy="420" r="8" fill="#34d399" opacity="0.8"/>
+  <circle cx="240" cy="380" r="8" fill="#34d399" opacity="0.8"/>
+  <circle cx="300" cy="350" r="8" fill="#34d399" opacity="0.8"/>
+  <circle cx="360" cy="320" r="8" fill="#34d399" opacity="0.8"/>
+  <circle cx="420" cy="300" r="8" fill="#34d399" opacity="0.8"/>
+  <circle cx="480" cy="260" r="8" fill="#34d399" opacity="0.8"/>
+  <circle cx="200" cy="480" r="8" fill="#f87171" opacity="0.7"/>
+  <circle cx="260" cy="450" r="8" fill="#f87171" opacity="0.7"/>
+  <line x1="100" y1="560" x2="560" y2="200" stroke="#6366f1" stroke-width="2" stroke-dasharray="6 4"/>
+  <rect x="660" y="120" width="572" height="520" rx="16" fill="#111827" stroke="#334155"/>
+  <rect x="720" y="480" width="80" height="120" fill="#22d3ee" rx="4"/>
+  <rect x="840" y="420" width="80" height="180" fill="#34d399" rx="4"/>
+  <rect x="960" y="460" width="80" height="140" fill="#22d3ee" rx="4"/>
+  <text x="730" y="620" fill="#94a3b8" font-size="12">5m</text>
+  <text x="855" y="620" fill="#94a3b8" font-size="12">15m</text>
+  <text x="975" y="620" fill="#94a3b8" font-size="12">1h</text>
+  <text x="720" y="160" fill="#e2e8f0" font-size="18" font-weight="600">Avg Edge 4.8%</text>
+  <text x="720" y="190" fill="#94a3b8" font-size="14">Hit Rate 57.2% · Best Window: 15m</text>
+</svg>
